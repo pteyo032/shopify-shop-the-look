@@ -14,7 +14,7 @@ native "Product Hotspots" mechanism — interaction, accessibility, and
 mobile fallback — rather than reimplementing it, and extends it with a
 metaobject layer for reusability.
 
-![Shop the Look — hotspots on a lifestyle photo, one popover open showing a product card](reference/Capture%20d%E2%80%99%C3%A9cran%2C%20le%202026-08-21%20%C3%A0%2001.33.28.png)
+![Shop the Look — hotspots on a lifestyle photo, one popover open showing a product card](reference/Capture%20d%E2%80%99%C3%A9cran%2C%20le%202026-08-21%20%C3%A0%2001.49.33.png)
 
 ## Features
 
