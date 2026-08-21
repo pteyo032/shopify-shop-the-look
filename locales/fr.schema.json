@@ -1,0 +1,20 @@
+{
+  "names": {
+    "shop_the_look": "Shop the Look"
+  },
+  "settings": {
+    "look": "Look",
+    "hotspot_size": "Diamètre du cercle",
+    "hotspot_size_mobile": "Diamètre du cercle sur mobile",
+    "hotspot_plus_thickness": "Épaisseur de l'icône +",
+    "hotspot_plus_thickness_mobile": "Épaisseur de l'icône + sur mobile",
+    "hotspot_hit_area": "Zone cliquable",
+    "popover_background_color": "Couleur de fond de la carte"
+  },
+  "info": {
+    "hotspot_hit_area_accessibility": "Garder au moins 44px pour une bonne accessibilité tactile sur mobile"
+  },
+  "text_defaults": {
+    "shop_the_look_heading": "Acheter le style complet"
+  }
+}

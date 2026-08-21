@@ -1,0 +1,51 @@
+
+
+{% render 'hotspot-product-content',
+  product: closest.product,
+  x_position: block.settings.x-position,
+  y_position: block.settings.y-position,
+  hotspot_color: section.settings.hotspot_color,
+  bullseye_color: section.settings.bullseye_color,
+  product_title_preset: section.settings.product_title_preset,
+  product_price_preset: section.settings.product_price_preset,
+  dialog_background_color: section.settings.popover_background_color,
+  block: block,
+  shopify_attributes: block.shopify_attributes
+%}
+
+{% schema %}
+{
+  "name": "t:names.hotspot_product",
+  "tag": null,
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "t:settings.product"
+    },
+    {
+      "type": "range",
+      "id": "x-position",
+      "label": "t:settings.x_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "y-position",
+      "label": "t:settings.y_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:names.hotspot_product"
+    }
+  ]
+}
+{% endschema %}

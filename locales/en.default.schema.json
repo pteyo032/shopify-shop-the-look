@@ -1,0 +1,20 @@
+{
+  "names": {
+    "shop_the_look": "Shop the Look"
+  },
+  "settings": {
+    "look": "Look",
+    "hotspot_size": "Hotspot size",
+    "hotspot_size_mobile": "Hotspot size on mobile",
+    "hotspot_plus_thickness": "Icon thickness",
+    "hotspot_plus_thickness_mobile": "Icon thickness on mobile",
+    "hotspot_hit_area": "Clickable area",
+    "popover_background_color": "Card background color"
+  },
+  "info": {
+    "hotspot_hit_area_accessibility": "Keep at 44px or above for the best tap-target accessibility on mobile"
+  },
+  "text_defaults": {
+    "shop_the_look_heading": "Shop the look"
+  }
+}
