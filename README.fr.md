@@ -15,6 +15,8 @@ mécanisme natif "Product Hotspots" d'Horizon — interaction, accessibilité,
 repli mobile — plutôt que de le reconstruire, et l'étend avec une couche
 metaobject pour la réutilisabilité.
 
+![Shop the Look — points cliquables sur une photo lifestyle, une carte produit ouverte](reference/Capture%20d%E2%80%99%C3%A9cran%2C%20le%202026-08-21%20%C3%A0%2001.33.28.png)
+
 ## Fonctionnalités
 
 - **Metaobject "Look" réutilisable** : une photo + ses points, défini une
