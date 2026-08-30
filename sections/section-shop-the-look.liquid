@@ -1,4 +1,4 @@
-{%- doc -%}
+{%- comment -%}
   Metaobject-driven "Shop the Look" section. Reuses the exact same
   interaction/accessibility/mobile behavior as the native
   sections/product-hotspots.liquid (shared snippets: hotspot-styles,
@@ -6,7 +6,10 @@
   difference is hotspots come from a "Look" metaobject's "hotspots" list
   instead of manually-added theme blocks, so a merchant can build one
   reusable "Look" and reference it from multiple sections/pages.
-{%- enddoc -%}
+
+  Note: this is a {% comment %} block, not {% doc %} — Shopify only allows
+  {% doc %} inside snippets and blocks, not sections.
+{%- endcomment -%}
 
 <script
   src="{{ 'product-hotspot.js' | asset_url }}"
@@ -106,7 +109,8 @@
                 product_title_preset: section.settings.product_title_preset,
                 product_price_preset: section.settings.product_price_preset,
                 dialog_background_color: section.settings.popover_background_color,
-                block: hotspot
+                block: hotspot,
+                section_id: section.id
               %}
             {% endfor %}
           </div>

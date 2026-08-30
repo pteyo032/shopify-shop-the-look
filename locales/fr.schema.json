@@ -1,6 +1,20 @@
 {
   "names": {
-    "shop_the_look": "Shop the Look"
+    "shop_the_look": "Shop the Look",
+    "hotspot_product": "Point produit",
+    "product_hotspots": "Points produit",
+    "heading": "Titre"
+  },
+  "categories": {
+    "products": "Produit"
+  },
+  "content": {
+    "heading": "Titre",
+    "section_layout": "Mise en page de la section",
+    "appearance": "Apparence",
+    "colors": "Couleurs",
+    "popover": "Carte produit",
+    "padding": "Marge intérieure"
   },
   "settings": {
     "look": "Look",
@@ -9,12 +23,53 @@
     "hotspot_plus_thickness": "Épaisseur de l'icône +",
     "hotspot_plus_thickness_mobile": "Épaisseur de l'icône + sur mobile",
     "hotspot_hit_area": "Zone cliquable",
-    "popover_background_color": "Couleur de fond de la carte"
+    "popover_background_color": "Couleur de fond de la carte",
+    "product": "Produit",
+    "x_position": "Position horizontale",
+    "y_position": "Position verticale",
+    "image": "Image",
+    "media_overlay": "Ajouter une superposition",
+    "overlay_color": "Couleur de la superposition",
+    "overlay_style": "Style de la superposition",
+    "gradient_direction": "Direction du dégradé",
+    "width": "Largeur",
+    "height": "Hauteur",
+    "background_color": "Couleur de fond",
+    "default": "Par défaut",
+    "vertical_gap": "Espacement vertical",
+    "product_title_typography": "Style du titre produit",
+    "product_price_typography": "Style du prix produit",
+    "top": "Haut",
+    "bottom": "Bas",
+    "hotspot_color": "Couleur du point",
+    "bullseye_color": "Couleur de la cible",
+    "heading": "Titre",
+    "size": "Taille"
   },
   "info": {
-    "hotspot_hit_area_accessibility": "Garder au moins 44px pour une bonne accessibilité tactile sur mobile"
+    "hotspot_hit_area_accessibility": "Garder au moins 44px pour une bonne accessibilité tactile sur mobile",
+    "edit_presets_in_theme_settings": "Modifier les préréglages dans les paramètres du thème"
+  },
+  "options": {
+    "solid": "Uni",
+    "gradient": "Dégradé",
+    "up": "Vers le haut",
+    "down": "Vers le bas",
+    "page": "Largeur de la page",
+    "full": "Pleine largeur",
+    "auto": "Auto",
+    "small": "Petit",
+    "medium": "Moyen",
+    "large": "Grand",
+    "default": "Par défaut",
+    "paragraph": "Paragraphe",
+    "h3": "Titre 3",
+    "h4": "Titre 4",
+    "h5": "Titre 5",
+    "h6": "Titre 6"
   },
   "text_defaults": {
-    "shop_the_look_heading": "Acheter le style complet"
+    "shop_the_look_heading": "Acheter le style complet",
+    "shop_the_look": "Acheter le style complet"
   }
 }
