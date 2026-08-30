@@ -1,5 +1,13 @@
 {
   "content": {
-    "shop_the_look_select_prompt": "Sélectionnez un Look pour afficher cette section"
+    "shop_the_look_select_prompt": "Sélectionnez un Look pour afficher cette section",
+    "product_badge_sold_out": "Rupture de stock"
+  },
+  "placeholders": {
+    "product_title": "Produit"
+  },
+  "accessibility": {
+    "show_product_details": "Voir les détails de {{ product_name }}",
+    "product_details": "Détails du produit"
   }
 }

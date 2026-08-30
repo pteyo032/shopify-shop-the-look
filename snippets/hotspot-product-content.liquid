@@ -23,6 +23,10 @@
   @param {string} [shopify_attributes] - `block.shopify_attributes`, when called
     from a real theme block, so the customizer can select it. Omit for
     metaobject-driven (non-block) callers.
+  @param {string} section_id - `section.id` of the calling section, passed through
+    to the native `quick-add` snippet. `render` gives this snippet its own scope,
+    so the caller's `section` isn't reliably available here — passed explicitly
+    rather than assumed.
 
   @example
   {% render 'hotspot-product-content',
@@ -33,7 +37,8 @@
     bullseye_color: section.settings.bullseye_color,
     product_title_preset: section.settings.product_title_preset,
     product_price_preset: section.settings.product_price_preset,
-    block: block
+    block: block,
+    section_id: section.id
   %}
 {%- enddoc -%}
 
@@ -101,7 +106,7 @@
         </div>
         {% if product != blank %}
           {% if product.available %}
-            {% render 'quick-add', product: product, section_id: section.id, block: block %}
+            {% render 'quick-add', product: product, section_id: section_id, block: block %}
           {% else %}
             <div class="hotspot-dialog__sold-out-badge">
               {{ 'content.product_badge_sold_out' | t }}

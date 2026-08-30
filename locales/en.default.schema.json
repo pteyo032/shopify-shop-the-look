@@ -1,6 +1,20 @@
 {
   "names": {
-    "shop_the_look": "Shop the Look"
+    "shop_the_look": "Shop the Look",
+    "hotspot_product": "Product hotspot",
+    "product_hotspots": "Product hotspots",
+    "heading": "Heading"
+  },
+  "categories": {
+    "products": "Product"
+  },
+  "content": {
+    "heading": "Heading",
+    "section_layout": "Section layout",
+    "appearance": "Appearance",
+    "colors": "Colors",
+    "popover": "Product popover",
+    "padding": "Padding"
   },
   "settings": {
     "look": "Look",
@@ -9,12 +23,53 @@
     "hotspot_plus_thickness": "Icon thickness",
     "hotspot_plus_thickness_mobile": "Icon thickness on mobile",
     "hotspot_hit_area": "Clickable area",
-    "popover_background_color": "Card background color"
+    "popover_background_color": "Card background color",
+    "product": "Product",
+    "x_position": "Horizontal position",
+    "y_position": "Vertical position",
+    "image": "Image",
+    "media_overlay": "Add overlay",
+    "overlay_color": "Overlay color",
+    "overlay_style": "Overlay style",
+    "gradient_direction": "Gradient direction",
+    "width": "Width",
+    "height": "Height",
+    "background_color": "Background color",
+    "default": "Default",
+    "vertical_gap": "Vertical gap",
+    "product_title_typography": "Product title style",
+    "product_price_typography": "Product price style",
+    "top": "Top",
+    "bottom": "Bottom",
+    "hotspot_color": "Hotspot color",
+    "bullseye_color": "Bullseye color",
+    "heading": "Heading",
+    "size": "Size"
   },
   "info": {
-    "hotspot_hit_area_accessibility": "Keep at 44px or above for the best tap-target accessibility on mobile"
+    "hotspot_hit_area_accessibility": "Keep at 44px or above for the best tap-target accessibility on mobile",
+    "edit_presets_in_theme_settings": "Edit presets in your theme settings"
+  },
+  "options": {
+    "solid": "Solid",
+    "gradient": "Gradient",
+    "up": "Up",
+    "down": "Down",
+    "page": "Page width",
+    "full": "Full width",
+    "auto": "Auto",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "default": "Default",
+    "paragraph": "Paragraph",
+    "h3": "Heading 3",
+    "h4": "Heading 4",
+    "h5": "Heading 5",
+    "h6": "Heading 6"
   },
   "text_defaults": {
-    "shop_the_look_heading": "Shop the look"
+    "shop_the_look_heading": "Shop the look",
+    "shop_the_look": "Shop the look"
   }
 }

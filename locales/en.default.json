@@ -1,5 +1,13 @@
 {
   "content": {
-    "shop_the_look_select_prompt": "Select a Look to display this section"
+    "shop_the_look_select_prompt": "Select a Look to display this section",
+    "product_badge_sold_out": "Sold out"
+  },
+  "placeholders": {
+    "product_title": "Product"
+  },
+  "accessibility": {
+    "show_product_details": "Show details for {{ product_name }}",
+    "product_details": "Product details"
   }
 }

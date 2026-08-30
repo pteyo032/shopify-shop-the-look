@@ -1,0 +1,15 @@
+# This repo is a fragment of the Horizon theme (a section + block + snippets),
+# not a full theme. It intentionally references shared Horizon-native files
+# (snippets like `image`, `price`, `quick-add`; theme block `blocks/text.liquid`)
+# that a full theme provides but this repo does not ship — a merchant drops
+# these files into a real Horizon theme, where the references resolve.
+extends: theme-check:recommended
+
+MissingTemplate:
+  enabled: false
+
+ValidStaticBlockType:
+  enabled: false
+
+ValidBlockTarget:
+  enabled: false
