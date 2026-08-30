@@ -2,6 +2,8 @@
 
 # Shopify Shop the Look — metaobject-driven shoppable image
 
+[![Theme Check](https://github.com/pteyo032/Shopify-shop-the-look/actions/workflows/theme-check.yml/badge.svg)](https://github.com/pteyo032/Shopify-shop-the-look/actions/workflows/theme-check.yml)
+
 A full-width lifestyle photo with clickable "+" hotspots. Clicking one opens
 a small product card (photo, title, price, native quick-add) right on the
 image — no page reload, no separate popup. Hotspots come from a **Look**

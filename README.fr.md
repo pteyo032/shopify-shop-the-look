@@ -2,6 +2,8 @@
 
 # Shopify Shop the Look — image shoppable pilotée par metaobjects
 
+[![Theme Check](https://github.com/pteyo032/Shopify-shop-the-look/actions/workflows/theme-check.yml/badge.svg)](https://github.com/pteyo032/Shopify-shop-the-look/actions/workflows/theme-check.yml)
+
 Une photo lifestyle pleine largeur avec des points cliquables ("+"). Un
 clic ouvre une petite carte produit (photo, titre, prix, ajout rapide
 natif) directement sur l'image — pas de rechargement de page, pas de
